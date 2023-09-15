@@ -8,13 +8,13 @@ var Player = {
 	accelx : 0, accely : 0, 
 	friction : 0.4,
 	speed : 2.8, speedBoost:0, 
-	range : 400, rangeBoost:0, 
-	fireRate: 350,	fireRateBoost:0,
-	attackSpeed: 8, bulletSpeedBoost:1,
-	damage : 1,	dmgBoost:0,	dmgMult:1, 
+	range : 800, rangeBoost:0, 
+	fireRate: 1050,	fireRateBoost:0,
+	attackSpeed: 80, bulletSpeedBoost:1,
+	damage : 10,	dmgBoost:0,	dmgMult:1, 
 	bombDmg :15, bombMult :1, 
-	hp : 3,	maxhp: 3, //HP : Vie restante, MAXHP : Vie totale
-	soul : 0, //"Armure"
+	hp : 8,	maxhp: 8, //HP : Vie restante, MAXHP : Vie totale
+	soul : 4, //"Armure"
 	gold : 5, keys : 1, bombs : 1, //Pickups
 	bombPosed : Date.now(), 
 	head: imageTool.playerDown, 
